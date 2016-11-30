@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="100"
+    android:weightSum="100"
+    android:background="@color/colorAccent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="10"
+        android:weightSum="100">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_height="match_parent"
+            android:layout_weight="33"
+            android:layout_width="0px"
+            android:weightSum="100"></LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:weightSum="100"
+            android:layout_weight="33">
+
+            <TextView
+                android:text="ROUND 1"
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:id="@+id/RoundText"
+                android:textStyle="normal|bold"
+                android:textSize="30sp"
+                android:textColor="#FF586A67"
+                android:layout_weight="100"
+                android:fontFamily="sans-serif" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:weightSum="100"
+            android:layout_weight="34"></LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:weightSum="100"
+        android:layout_weight="40">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:weightSum="100"
+            android:layout_weight="50">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/cardback_op3"
+                android:id="@+id/imageView"
+                android:layout_weight="100"
+                android:scaleType="fitCenter" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:weightSum="100"
+            android:layout_weight="50">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="100"
+                android:layout_weight="25">
+
+                <TextView
+                    android:text="Player 2 : "
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:id="@+id/textView"
+                    android:layout_weight="50"
+                    android:fontFamily="sans-serif"
+                    android:textAlignment="center"
+                    android:textSize="18sp"
+                    android:textStyle="normal|bold"
+                    android:textColorLink="#000000"
+                    android:textColor="#30302f"/>
+
+                <TextView
+                    android:text="200"
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:id="@+id/text_op_point"
+                    android:layout_weight="50"
+                    android:textSize="18sp"
+                    android:textStyle="normal|bold"
+                    android:textColor="#30302f"
+                    android:textAlignment="center"
+                    android:fontFamily="sans-serif" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="25"
+                android:weightSum="100">
+
+                <TextView
+                    android:text="총 점수 : "
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:id="@+id/textView3"
+                    android:layout_weight="50"
+                    android:textAlignment="center"
+                    android:textColor="#30302f"
+                    android:textSize="16sp"
+                    android:fontFamily="sans-serif" />
+
+                <TextView
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:id="@+id/op_Betting"
+                    android:layout_weight="50"
+                    android:textAlignment="center"
+                    android:textStyle="normal|bold"
+                    android:textColor="#30302f"
+                    android:textSize="16sp"
+                    android:fontFamily="sans-serif" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="100"
+                android:layout_weight="25">
+
+                <TextView
+                    android:text="베팅점수 :"
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:id="@+id/textView4"
+                    android:layout_weight="50"
+                    android:textAlignment="center"
+                    android:textColor="#30302f"
+                    android:textSize="16sp"
+                    android:fontFamily="sans-serif" />
+
+                <TextView
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:id="@+id/my_Betting"
+                    android:layout_weight="50"
+                    android:textAlignment="center"
+                    android:textColor="#30302f"
+                    android:textSize="16sp"
+                    android:textStyle="normal|bold"
+                    android:fontFamily="sans-serif" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="100"
+                android:layout_weight="25">
+
+                <TextView
+                    android:text="Player 1 : "
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:id="@+id/textView2"
+                    android:layout_weight="50"
+                    android:textAlignment="center"
+                    android:textSize="18sp"
+                    android:textStyle="normal|bold"
+                    android:textColor="#30302f"
+                    android:fontFamily="sans-serif" />
+
+                <TextView
+                    android:text="200"
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:id="@+id/text_my_point"
+                    android:layout_weight="50"
+                    android:textAlignment="center"
+                    android:textColor="#30302f"
+                    android:textStyle="normal|bold"
+                    android:textSize="18sp"
+                    android:fontFamily="sans-serif" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="40"
+        android:weightSum="100">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:weightSum="100"
+            android:layout_weight="50">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/cardback"
+                android:id="@+id/imageView2"
+                android:layout_weight="100"
+                android:scaleType="fitCenter" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:weightSum="100"
+            android:layout_weight="50">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:weightSum="100"
+                android:layout_weight="45">
+
+                <Button
+                    android:text="10점"
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:id="@+id/point10"
+                    android:layout_weight="27"
+                    android:textAlignment="center"
+                    android:fontFamily="sans-serif"
+                    android:textStyle="normal|bold"
+                    android:textColor="#fafafa"
+                    android:background="@drawable/gamemain_point_btn"
+                    android:onClick="play_click" />
+
+                <Space
+                    android:layout_height="match_parent"
+                    android:layout_weight="6"
+                    android:layout_width="0px" />
+
+                <Button
+                    android:text="20점"
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:id="@+id/point20"
+                    android:layout_weight="27"
+                    android:textAlignment="center"
+                    android:fontFamily="sans-serif"
+                    android:textStyle="normal|bold"
+                    android:textColor="#fafafa"
+                    android:background="@drawable/gamemain_point_btn"/>
+
+                <Space
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:layout_weight="6" />
+
+                <Button
+                    android:text="30점"
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:id="@+id/point30"
+                    android:layout_weight="27"
+                    android:textAlignment="center"
+                    android:fontFamily="sans-serif"
+                    android:textStyle="normal|bold"
+                    android:textColor="#fafafa"
+                    android:background="@drawable/gamemain_point_btn"/>
+
+                <Space
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:layout_weight="7" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="10"
+                android:weightSum="100"></LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:weightSum="100"
+                android:layout_weight="45">
+
+                <Button
+                    android:text="BETTING"
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:id="@+id/RankingButton"
+                    android:layout_weight="45"
+                    android:textAlignment="center"
+                    android:fontFamily="sans-serif"
+                    android:textStyle="normal|bold"
+                    android:textColor="#fafafa"
+                    android:background="@drawable/gamemain_betgiveup_btn"
+
+                    />
+
+                <Space
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5" />
+
+                <Button
+                    android:text="GIVEUP"
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:id="@+id/giveup_button"
+                    android:layout_weight="45"
+                    android:textAlignment="center"
+                    android:fontFamily="sans-serif"
+                    android:textStyle="normal|bold"
+                    android:textColor="#fafafa"
+                    android:background="@drawable/gamemain_betgiveup_btn"/>
+
+                <Space
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:weightSum="100"
+        android:layout_weight="10">
+
+    </LinearLayout>
+</LinearLayout>
